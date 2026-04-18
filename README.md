@@ -9,10 +9,15 @@ Developed a deep learning diagnostic system to classify 8 cancer types from MRI 
 *Figure: Side-by-side comparison showing how Grad-CAM and LIME identify the specific features used for classification.*
 
 ## 🚀 Key Features
-* **Architecture:** Fine-tuned **VGG16** backbone with custom top layers for multi-class classification.
-* **Explainability:** Integrated **Grad-CAM** and **LIME** to generate high-resolution diagnostic heatmaps.
-* **Engineering:** Custom **NumPy-aware JSON encoder** for high-precision tensor serialization.
-* **Hardware Optimization:** Resolved **AVX instruction set** bottlenecks through a migrated cloud-inference workflow.
+Architecture: Fine-tuned VGG16 backbone with custom top layers for high-precision multi-class classification.
+
+Explainability (XAI): Integrated Grad-CAM and LIME to generate high-resolution diagnostic heatmaps, providing visual "proof" for model predictions.
+
+Automated Clinical Reporting: Integrated LLM endpoints (Mistral-7B) to transform raw tensor data into patient-friendly, natural language diagnostic summaries.
+
+Engineering Excellence: Developed a custom NumPy-aware JSON encoder to handle high-precision float32 serialization for seamless API integration.
+
+Hardware Optimization: Successfully architected a cloud-based inference workflow to bypass local AVX instruction set limitations.
 
 ## 📦 Model Weights
 Large-scale model artifacts and the full VGG16 checkpoint are managed externally due to GitHub size constraints.
