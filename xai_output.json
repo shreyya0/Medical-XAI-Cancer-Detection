@@ -1,0 +1,11 @@
+[
+    {
+        "image_index": 1,
+        "predicted_class": 1,
+        "class_name": "Brain Cancer",
+        "true_class": 0,
+        "true_class_name": "ALL",
+        "confidence": 79.63188934326172,
+        "xai_insights": "Grad-CAM highlights the tumor in the brain center. Saliency Map shows tumor edges are critical. LIME outlines the tumor area as the most important region."
+    }
+]
